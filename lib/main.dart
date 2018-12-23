@@ -14,35 +14,36 @@ class MyApp extends StatelessWidget {
           title: Text("List View"),
         ),
         body: ListView(
+          scrollDirection: Axis.horizontal,
           children: <Widget>[
             Container(
-              width: double.infinity,
-              height: 200,
+              width: 200,
+              height: double.infinity,
               color: Colors.red,
             ),
             Container(
-              width: double.infinity,
-              height: 200,
+              width: 200,
+              height: double.infinity,
               color: Colors.lightBlue,
             ),
             Container(
-              width: double.infinity,
-              height: 200,
+              width: 200,
+              height: double.infinity,
               color: Colors.yellow,
             ),
             Container(
-              width: double.infinity,
-              height: 200,
+              width: 200,
+              height: double.infinity,
               color: Colors.green,
             ),
             Container(
-              width: double.infinity,
-              height: 200,
+              width: 200,
+              height: double.infinity,
               color: Colors.orange,
             ),
             Container(
-              width: double.infinity,
-              height: 200,
+              width: 200,
+              height: double.infinity,
               color: Colors.purple,
             )
           ],
